@@ -70,9 +70,8 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- PiggySend
+                      🔥 -- PiggySend <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     </a>
-                    <p>Dev in progress</p>
                     <div>Got too many NFTs? Transfer them in bulk using PiggySend!</div></div>
                 </Link>
 
@@ -81,7 +80,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔒 -- PiggyInvestment
+                      🔒 -- PiggyInvestment <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     </a>
                     <div>Utilize your Nft using PiggyInvestment, get ROI</div></div>
                 </Link>
@@ -91,7 +90,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      🧪 -- PiggyLoan
+                      🧪 -- PiggyLoan <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     </a>
                     <div>Use your NFT as collateral to get $SOL/$DUST</div>
                   </div>
@@ -101,7 +100,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                    📨 📨 📨  -- PiggySaving
+                    📨 📨 📨  -- PiggySaving <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     </a>
                     <div>Configure timely ROI savings in $SOL/$DUST </div>
                   </div>

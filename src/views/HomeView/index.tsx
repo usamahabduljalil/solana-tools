@@ -61,9 +61,49 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/gallery">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- Burn NFTs
+                      🔥 -- Piggy Burn NFTs
                     </a>
                     <div>A UI to burn Solana NFTs also releases the rent (ca 0.002 SOL per NFT)</div></div>
+                </Link>
+                </li>
+              <li className="mb-5">
+                <Link href="/">
+                  <div className="p-4 hover:border">
+                    <a className="text-4xl font-bold mb-5">
+                      🔥 -- PiggySend 
+                    </a>
+                    <div>Got too many NFTs? Transfer them in bulk using PiggySend!</div></div>
+                </Link>
+
+              </li>
+              <li className="mb-5">
+                <Link href="/">
+                  <div className="p-4 hover:border">
+                    <a className="text-4xl font-bold mb-5">
+                      🔒 -- PiggyInvestment
+                    </a>
+                    <div>Utilize your Nft using PiggyInvestment, get ROI</div></div>
+                </Link>
+
+              </li>
+              <li className="mb-5">
+                <Link href="/">
+                  <div className="p-4 hover:border">
+                    <a className="mb-5 text-4xl font-bold">
+                      🧪 -- PiggyLoan
+                    </a>
+                    <div>Use your NFT as collateral to get $SOL/$DUST</div>
+                  </div>
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link href="/">
+                  <div className="p-4 hover:border">
+                    <a className="mb-5 text-4xl font-bold">
+                    📨 📨 📨  -- PiggySaving
+                    </a>
+                    <div>Configure timely ROI savings in $SOL/$DUST </div>
+                  </div>
                 </Link>
               </li>
             </ul>

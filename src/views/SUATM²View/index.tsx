@@ -185,7 +185,7 @@ export const SUATMMView: FC = ({ }) => {
               <ul className="text-xs sm:text-xl">
                 <li>
                   <Link href="/">
-                    <a>SOLANA-TOOLS</a>
+                    <a>PIGGY DUST TOOLS</a>
                   </Link>
                 </li>
               </ul>

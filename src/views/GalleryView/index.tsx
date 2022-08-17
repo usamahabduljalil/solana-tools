@@ -64,8 +64,11 @@ export const GalleryView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Piggy Dust Burn your Solana <SolanaLogo /> NFTs and get $SOL back
+                  Piggy Dust Burn <SolanaLogo /> NFTs and get $SOL back
                 </h1>
+                <h3 className="mb-5 text-5xl">
+                <h3 className='text-[#F03A17] font-semibold'>Scam</h3> NFT are Highly recommended to be burn your Solana 
+                </h3>
 
                 <div className="w-full min-w-full">
                   <div>
@@ -148,9 +151,9 @@ const NftList = ({ nfts, error, setRefresh }: NftListProps) => {
   return (
     <div>
       <ul className="text-left font-semibold text-base mb-4">
-        <li className=" mb-1"><span className='text-[#16c60c] font-semibold'>✔ Verified</span> : the NFT does not want to drain your wallet. It does not guarantee the quality of the project. It can still be a rug or a poor project.</li>
-        <li className=" mb-1"><span className='text-[#F03A17] font-semibold'>❗ Scam</span> : the NFT wants to drain your wallet. <strong>Do not go on its website</strong> and burn it!</li>
-        <li className=" mb-1"><span className='text-[#ff7f00] font-semibold'><strong>?</strong> No information</span> : not enough information about this NFT. Feel free to send to <a target="_blank" href="https://twitter.com/laloutre"><strong className="text-[#0080FF]">@laloutre</strong></a> the mint address in order to be add in one of the 2 others categories.</li>
+        <li className=" mb-1"><span className='text-[#16c60c] font-semibold'>✔ Verified</span> : It can still be a rug or a poor project.</li>
+        <li className=" mb-1"><span className='text-[#F03A17] font-semibold'>❗ Scam NFT</span> : Do not interact. <strong>Do not go on its website.</strong> Burn it!</li>
+        <li className=" mb-1"><span className='text-[#ff7f00] font-semibold'><strong>?</strong> No information</span> : not enough information about this NFT. Follow <a target="_blank" href="https://twitter.com/piggydustdao"><strong className="text-[#0080FF]">@piggydustdao</strong></a> for updates.</li>
       </ul>
 
       <BurnButton toBurn={NFTstoBurn} connection={connection} publicKey={publicKey} wallet={wallet} setRefresh={setRefresh} />

@@ -61,7 +61,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/gallery">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- Piggy Burn NFTs
+                      🔥 -- PiggyBurn NFTs
                     </a>
                     <div>A UI to burn Solana NFTs also releases the rent (ca 0.002 SOL per NFT)</div></div>
                 </Link>
@@ -70,8 +70,9 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- PiggySend 
+                      🔥 -- PiggySend
                     </a>
+                    <p>Dev in progress</p>
                     <div>Got too many NFTs? Transfer them in bulk using PiggySend!</div></div>
                 </Link>
 

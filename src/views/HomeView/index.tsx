@@ -70,8 +70,8 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- PiggySend <span className='text-[#F03A17] font-semibold'>Launch soon</span>
-                    </a>
+                      📤 -- PiggySend 
+                    </a> <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     <div>Got too many NFTs? Transfer them in bulk using PiggySend!</div></div>
                 </Link>
 
@@ -80,7 +80,7 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔒 -- PiggyInvestment 
+                      💹 -- PiggyInvestment 
                     </a> <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     <div>Utilize your Nft using PiggyInvestment, get ROI</div></div>
                 </Link>
@@ -90,8 +90,8 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                      🧪 -- PiggyLoan <span className='text-[#F03A17] font-semibold'>Launch soon</span>
-                    </a>
+                      🤑 -- PiggyLoan 
+                    </a> <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     <div>Use your NFT as collateral to get $SOL/$DUST</div>
                   </div>
                 </Link>
@@ -100,8 +100,8 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="mb-5 text-4xl font-bold">
-                    📨 📨 📨  -- PiggySaving <span className='text-[#F03A17] font-semibold'>Launch soon</span>
-                    </a>
+                    📨 📨 📨  -- PiggySaving 
+                    </a> <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     <div>Configure timely ROI savings in $SOL/$DUST </div>
                   </div>
                 </Link>

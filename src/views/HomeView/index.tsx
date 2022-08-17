@@ -80,8 +80,8 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔒 -- PiggyInvestment <span className='text-[#F03A17] font-semibold'>Launch soon</span>
-                    </a>
+                      🔒 -- PiggyInvestment 
+                    </a> <span className='text-[#F03A17] font-semibold'>Launch soon</span>
                     <div>Utilize your Nft using PiggyInvestment, get ROI</div></div>
                 </Link>
 

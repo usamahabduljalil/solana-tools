@@ -45,10 +45,10 @@ export const HomeView: FC = ({ }) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl font-bold">
-                  Hello Solana <SolanaLogo /> World!
+                  <SolanaLogo />
                 </h1>
                 <p className="mb-2">
-                  This website includes amazing tools to help you in the solana ecosystem.
+                  Piggy Dust Scam/Rug NFT Burn Tool for The solana ecosystem.
                 </p>
               </div>
             </div>
@@ -61,72 +61,10 @@ export const HomeView: FC = ({ }) => {
                 <Link href="/gallery">
                   <div className="p-4 hover:border">
                     <a className="text-4xl font-bold mb-5">
-                      🔥 -- Burn NFT
+                      🔥 -- Burn NFTs
                     </a>
-                    <div>A UI to burn Solana NFTs and get SOL back</div></div>
+                    <div>A UI to burn Solana NFTs also releases the rent (ca 0.002 SOL per NFT)</div></div>
                 </Link>
-
-              </li>
-              <li className="mb-5">
-                <Link href="/burnSPL">
-                  <div className="p-4 hover:border">
-                    <a className="text-4xl font-bold mb-5">
-                      🔥 -- Burn SPL token
-                    </a>
-                    <div>A UI to burn SPL tokens and get SOL back</div></div>
-                </Link>
-
-              </li>
-              <li className="mb-5">
-                <Link href="/closeaccount">
-                  <div className="p-4 hover:border">
-                    <a className="text-4xl font-bold mb-5">
-                      🔒 -- Close empty account
-                    </a>
-                    <div>A UI to close empty account of unused token and get SOL back</div></div>
-                </Link>
-
-              </li>
-              <li className="mb-5">
-                <Link href="/spltoken">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      🧪 -- SPL Token Creator
-                    </a>
-                    <div>A UI to create your own Solana token</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/multisender">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                    📨 📨 📨  -- Multi Sender
-                    </a>
-                    <div>A UI to send multiple tokens in 1 transaction (same token to different people/many tokens to one person)</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/upload">
-                  <div className="p-4 hover:border">
-                    <a className="mb-5 text-4xl font-bold">
-                      📤 -- Upload file
-                    </a>
-                    <div>A UI to upload file to Arweave</div>
-                  </div>
-                </Link>
-              </li>
-              <li className="mb-5">
-                <Link href="/suatmm">
-                  <div className="p-4 hover:border">
-                    <a className="text-4xl font-bold mb-5">
-                    📨 -- Send NFT message
-                    </a>
-                    <div>A UI to send a message to the owner of the NFT or the .sol domain name you want</div>
-                  </div>
-                </Link>
-
               </li>
             </ul>
           </div>

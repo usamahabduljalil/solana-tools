@@ -64,10 +64,10 @@ export const GalleryView: FC = ({ }) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Piggy Dust Burn <SolanaLogo /> NFTs and get $SOL back
+                  Piggy Dust Burn Tool 
                 </h1>
                 <h3 className="mb-5 text-5xl">
-                <h3 className='text-[#F03A17] font-semibold'>Scam</h3> NFT are Highly recommended to be burn your Solana 
+                Burn <span className='text-[#F03A17] font-semibold'>Scam/Rug</span> NFTs and get $SOL back 
                 </h3>
 
                 <div className="w-full min-w-full">
